@@ -11,8 +11,6 @@
 /**
  * This class stores a series of characters in order and has many methods
  * designed to make manipulation of these characters simple and easy.
- *
- * This String is immutable and is therefore inherently thread safe.
  */
 class String
 {
@@ -67,7 +65,7 @@ public:
 	const char operator[](unsigned int idx) const;
 
 	/**
-	 * Returns whether the given String segment can be found in this String.<br>
+	 * Returns whether the given String segment can be found in this String.
 	 * This includes correct capitalization.
 	 *
 	 * @param segment The String to be found within this String
