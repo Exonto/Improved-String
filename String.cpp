@@ -528,34 +528,3 @@ std::istream& operator>>(std::istream& is, String& str)
 
 	return is;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
